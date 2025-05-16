@@ -1,7 +1,7 @@
 <template>
-    <main-header></main-header>
+    <!-- <main-header></main-header> -->
     <slot></slot>
-    <main-footer></main-footer>
+    <!-- <main-footer></main-footer> -->
 </template>
 
 <script>

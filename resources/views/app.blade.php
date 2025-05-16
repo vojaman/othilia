@@ -7,7 +7,10 @@
         <title inertia>{{ config('app.name') }}</title>
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"> -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
@@ -20,7 +23,7 @@
         {{-- <script src="{{ asset('js/share.js') }}"></script> --}}
         <!-- <script src="{{ asset('vendor/laraberg/js/laraberg.js') }}"></script> -->
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-tapestry">
     @inertia
 
     @env ('local')

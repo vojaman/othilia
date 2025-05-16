@@ -25063,8 +25063,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
+var _hoisted_1 = {
+  "class": "bg-rose-200"
+};
 function render(_ctx, _cache) {
-  return _cache[0] || (_cache[0] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-50\"><div class=\"flex flex-col justify-center items-center pt-12\"><p class=\"font-black text-lg\">BUDI UVEK U TOKU</p><p class=\"p-4 text-base\">prijavi se na naš newsletter</p></div><div class=\"flex justify-center pt-4 mx-2\"></div></div><footer class=\"relative w-full bg-black h-full xlmax:\"></footer>", 2));
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, _cache[0] || (_cache[0] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "pb-64"
+  }, null, -1 /* HOISTED */)]));
 }
 
 /***/ }),
@@ -25105,9 +25110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_main_header = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("main-header");
-  var _component_main_footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("main-footer");
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_main_header), (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_main_footer)], 64 /* STABLE_FRAGMENT */);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <main-header></main-header> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <main-footer></main-footer> ")], 2112 /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */);
 }
 
 /***/ }),
@@ -26101,16 +26104,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-gray-50 h-144"
+  "class": "bg-rose-100"
 };
 function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _cache[0] || (_cache[0] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "container xl:max-w-screen-xl mx-auto pt-32"
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "flex flex-wrap h-full items-center max-w-fit mdmax:h-80"
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "font-black text-lg"
-  }, "Želiš da dobiješ vesti o našim najnovijim ponudama?")])], -1 /* HOISTED */)]));
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _cache[0] || (_cache[0] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-[url(/img/underconstructionBG.jpg)] bg-center\"><div class=\"container xl:max-w-screen-xl mx-auto pt-32\"><div><img src=\"/img/logo.webp\" class=\"w-64 mx-auto\" alt=\"logo\"></div><div class=\"h-200 mx-auto\"><h1 class=\"py-44 text-center font-extrabold select-none text-6xl mdmax:text-2xl\">OVA STRANICA JE TRENUTNO U IZRADI</h1></div></div></div>", 1)]));
 }
 
 /***/ }),

@@ -48,9 +48,9 @@ module.exports = {
         'xxxs': '0.55rem',
         'xxs': '0.65rem',
         },
-        fontFamily: {
-            'Avenir': ['Avenir', 'sans-serif'],
-            },
+         fontFamily: {
+             'tapestry': ['Tapestry', 'sans-serif'],
+             },
         screens: {
             'dark-mode': { 'raw': '(prefers-color-scheme: dark)' },
             '2xlmax': {'max': '1535px'},
